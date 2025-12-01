@@ -1,7 +1,7 @@
 from PIL import Image
 
 img = Image.open("images/img1.jpg")
-print(f'Image size {img.size}, Image type: {img.format}')
+print(f'Image size {img.size}, Image depth: {img.mode}, Image type: {img.format}')
 
 choice = input("Выберите действие: Применить эффект(1), Сохранить изображение(2):")
 
